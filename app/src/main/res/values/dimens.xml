@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="form_layout_padding">2sp</dimen>
+    <dimen name="data_picker_padding">8sp</dimen>
+    <integer name="max_lines_description">2</integer>
+    <integer name="max_lines_form_field">1</integer>
+    <dimen name="date_spinner_height">120sp</dimen>
+</resources>

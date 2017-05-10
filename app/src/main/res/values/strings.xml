@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">DesarrolloAppsAndroidSemanaDos</string>
+    <string name="app_name">Android App  S2</string>
+    <string name="user_name_hint">Nombre completo</string>
+    <string name="phone_hint">Teléfono</string>
+    <string name="email_hint">Email</string>
+    <string name="description_hint">Descripción Contacto</string>
+    <string name="select_birthdate_label"> Fecha de nacimiento</string>
+    <string name="next_button_text">Siguiente</string>
 </resources>
