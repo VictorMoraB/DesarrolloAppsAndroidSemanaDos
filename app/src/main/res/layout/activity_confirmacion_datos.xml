@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/form_layout_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_info_title"
+        android:textSize="@dimen/confirm_data_title_font_size"
+        android:textAlignment="center"
+        android:fontFamily="@string/confirm_data_font_family"
+        android:padding="@dimen/confirm_tv_padding"
+        android:id="@+id/confirm_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirm_data_entries_font_size"
+        android:fontFamily="@string/confirm_data_font_family"
+        android:text="@string/temp_name"
+        android:padding="@dimen/confirm_tv_padding"
+        android:id="@+id/confirm_name"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/confirm_tv_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/birth_label"
+            android:textSize="@dimen/confirm_data_entries_font_size"
+            android:fontFamily="@string/confirm_data_font_family"
+            android:text="@string/confirm_birth_label"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_birth"
+            android:textSize="@dimen/confirm_data_entries_font_size"
+            android:fontFamily="@string/confirm_data_font_family"
+            android:text="@string/temp_birth"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirm_data_entries_font_size"
+        android:fontFamily="@string/confirm_data_font_family"
+        android:text="@string/temp_phone"
+        android:padding="@dimen/confirm_tv_padding"
+        android:id="@+id/confirm_phone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirm_data_entries_font_size"
+        android:fontFamily="@string/confirm_data_font_family"
+        android:text="@string/temp_email"
+        android:padding="@dimen/confirm_tv_padding"
+        android:id="@+id/confirm_email"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirm_data_entries_font_size"
+        android:fontFamily="@string/confirm_data_font_family"
+        android:text="@string/temp_description"
+        android:padding="@dimen/confirm_tv_padding"
+        android:id="@+id/confirm_description"/>
+
+    <!--Next Button-->
+    <Button
+        android:id="@+id/confirm_edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_edit_button"
+        android:theme="@style/MyMaterialButton"
+        android:padding="@dimen/confirm_tv_padding"
+        android:onClick="GoToConfirmContactActivity"
+        />
+</android.support.v7.widget.LinearLayoutCompat>
+

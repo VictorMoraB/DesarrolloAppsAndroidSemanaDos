@@ -1,9 +1,47 @@
 <resources>
+
+    <!--Action bar titles-->
+    <string name="action_bar_title_form">Editar contacto</string>
+    <string name="action_bar_title_confirm">Confirmar contacto</string>
+
     <string name="app_name">Android App  S2</string>
     <string name="user_name_hint">Nombre completo</string>
     <string name="phone_hint">Teléfono</string>
     <string name="email_hint">Email</string>
     <string name="description_hint">Descripción Contacto</string>
-    <string name="select_birthdate_label"> Fecha de nacimiento</string>
+    <string name="select_birth_label"> Fecha de nacimiento: </string>
     <string name="next_button_text">Siguiente</string>
+    <string name="confirm_info_title" translatable="false">Confirmar datos</string>
+    <string name="confirm_birth_label">Fecha Nacimiento: </string>
+    <string name="confirm_edit_button">Editar Datos</string>
+
+    <!--placeholders to check the confirm form with data-->
+    <string name="temp_name">Alina Meza M</string>
+    <string name="temp_birth">12/4/1988</string>
+    <string name="temp_phone">8888-54578</string>
+    <string name="temp_email">lalala@tadah.com</string>
+    <string name="temp_description">Mi contacto favorito!</string>
+
+    <!--Intent payload strings between Contact form and Confirm activity-->
+    <string name="name_param" translatable="false">pName</string>
+    <string name="phone_param" translatable="false">pPhone</string>
+    <string name="email_param" translatable="false">pEmail</string>
+    <string name="birth_param" translatable="false">pBirth</string>
+    <string name="description_param" translatable="false">pDescription</string>
+
+    <!--Configure month number to text translation-->
+    <string-array name="intToMonth">
+        <item>ENE</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>ABR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AGO</item>
+        <item>SET</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
 </resources>

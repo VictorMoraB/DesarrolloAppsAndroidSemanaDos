@@ -5,4 +5,9 @@
     <integer name="max_lines_description">2</integer>
     <integer name="max_lines_form_field">1</integer>
     <dimen name="date_spinner_height">120sp</dimen>
+    <dimen name="confirm_data_title_font_size">35sp</dimen>
+    <dimen name="confirm_data_entries_font_size">20sp</dimen>
+    <string name="confirm_data_font_family">serif-monospace</string>
+    <dimen name="confirm_tv_padding">8sp</dimen>
+
 </resources>

@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/select_birthdate_label"
+            android:text="@string/select_birth_label"
             />
 
         <DatePicker
@@ -106,6 +106,7 @@
         android:layout_height="wrap_content"
         android:text="@string/next_button_text"
         android:theme="@style/MyMaterialButton"
+        android:onClick="GoToConfirmContactActivity"
     />
 
 </android.support.v7.widget.LinearLayoutCompat>
